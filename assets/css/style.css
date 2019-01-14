@@ -1,0 +1,236 @@
+/*----------------------------------------------------------------
+# normalize
+# terminal
+	## content
+	## prompt
+----------------------------------------------------------------*/
+/*----------------------------------------------------------------
+# normalize
+----------------------------------------------------------------*/
+::-moz-selection {
+	background-color: #fff;
+	color: #000;
+}
+
+::selection {
+	background: #fff;
+	color: #000;
+}
+
+:active,
+:hover,
+:focus {
+	outline: 0;
+	outline-offset: 0
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+html,
+body {
+	background: #0e0e0e;
+	color: #eee;
+}
+
+a {
+	color: #0ff;
+	border-bottom: 1px solid #0ff;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	color: #088;
+	border-bottom: 1px solid #088;
+}
+
+a[target="_blank"] {
+	color: #0ff;
+	border: 0;
+}
+
+a[target="_blank"]:hover {
+	color: #f0f;
+}
+
+a[target="_blank"]:before {
+	content: "<";
+}
+
+a[target="_blank"]:after {
+	content: ">";
+}
+
+img {
+	display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	display: block;
+	color: #0f0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+h1 {
+	display: inline-block;
+	margin: 12px 0;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.1;
+}
+
+b,
+strong {
+	color: #0f0;
+	font-weight: normal;
+}
+
+i,
+em {
+	font-style: italic;
+}
+
+big {
+	font-size: 15px;
+}
+
+small {
+	font-size: 10px;
+}
+
+mark {
+	background: #eee;
+	color: #0e0e0e;
+}
+
+del {}
+
+ins {
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+
+q:before,
+q:after {
+	content: "'";
+}
+
+blockquote {
+	display: block;
+	margin: 12px 0;
+	padding: 12px 0;
+	border: 1px #eee dotted;
+}
+
+blockquote:after,
+blockquote:before {
+	content: ' ';
+}
+
+address {
+	font-style: oblique;
+}
+
+abbr {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+abbr[title] {
+	cursor: help;
+}
+
+aside {
+	margin: 12px 0;
+}
+
+ul {
+	display: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+/*----------------------------------------------------------------
+# terminal
+----------------------------------------------------------------*/
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.terminal {
+	padding: 12px;
+	font-size: 12px;
+	font-family: "Menlo Regular", "Lucida Console", Monaco, monospace, "Courier New", Fixed;
+	letter-spacing: 1px;
+	line-height: 1.2;
+	white-space: pre-wrap;
+}
+
+/*----------------------------------------------------------------
+## content
+----------------------------------------------------------------*/
+.terminal .content {
+	margin: 0 0 12px;
+}
+
+.terminal .content .cmd_out {
+	margin: 12px 0 0;
+}
+
+.terminal .content .cmd_out:first-child {
+	margin: 0;
+}
+
+.terminal .content .cmd_out .cmd_in {
+	color: #ddd;
+}
+
+.terminal .content .cmd_out .cmd_in:before {
+	content: "> ";
+}
+
+.terminal .content .cmd_out .cmd_entry {
+	margin: 0 0 12px;
+}
+
+.terminal .content .cmd_out .cmd_entry:last-child {
+	margin: 0;
+}
+
+/*----------------------------------------------------------------
+## prompt
+----------------------------------------------------------------*/
+.terminal .prompt {
+	margin: 0;
+}
+
+.terminal .prompt .ps {
+	float: left;
+}
+
+.terminal .prompt input[type="text"] {
+	display: inline;
+	width: 90%;
+	background: transparent;
+	color: #ddd;
+	border: 0;
+	font-size: 12px;
+	font-family: "Menlo Regular", "Lucida Console", Monaco, monospace, "Courier New", Fixed;
+	letter-spacing: 1px;
+	outline: none;
+}
