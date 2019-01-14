@@ -1,0 +1,70 @@
+{
+	"item" : [
+		{
+			"name"        : "ascii today",
+			"description" : "A super-fast ASCII title generator. Spruce up your code comments and readmes.",
+			"link"        : "https://ascii.today",
+			"tag"         : ["site", "ascii", "today"]
+		},
+		{
+			"name"        : "ascii doom (1999)",
+			"description" : "If indeed DOOM can be boiled down to shooting people with a shotgun from a first-person perspective while running around a maze, then this minimalist proof-of-concept delivers what it promises. Anyone hoping for anything more (such as the eminently DOOMian demons, keycards, gates, exploding barrels, multiple weapons, sound effects, power-ups or deathmatches) may be disappointed. Admittedly this is more interesting as a kind of technical demo than as a game, flying with authentic ASCII art stickmen where later Quake fans took the lazy way out with use of aalib.",
+			"link"        : "https://archive.org/details/msdos_ASCII_DOOM_1999",
+			"tag"         : ["game", "ascii", "doom", "fps", "shooter", "1999"]
+		},
+		{
+			"name"        : "google bbs terminal",
+			"description" : "What Google would have looked like in the 80s",
+			"link"        : "https://www.masswerk.at/googleBBS",
+			"tag"         : ["site", "google", "bbs", "terminal"]
+		},
+		{
+			"name"        : "bing bbs terminal",
+			"description" : "What Bing would have looked like in the 80s",
+			"link"        : "https://www.masswerk.at/bingBBS",
+			"tag"         : ["site", "bing", "bbs", "terminal"]
+		},
+		{
+			"name"        : "sleeping beauty (2017)",
+			"description" : "Into a profound slumber she sank, surrounded only by dense brambles, thorns and roses. Many adventurers tried to find and rescue her, but none came back...",
+			"link"        : "https://ondras.github.io/sleeping-beauty",
+			"tag"         : ["game", "roguelike", "sleeping", "beauty", "2017"]
+		},
+		{
+			"name"        : "rogue (1983)",
+			"description" : "Rogue is a turn-based dungeon crawler in which the player controls an adventurer who must explore the dangerous Dungeon of Doom in order to retrieve the precious Amulet of Yendor and make it out alive. The player character starts on the upper-most level and slowly makes his way downwards.",
+			"link"        : "https://archive.org/details/msdos_Rogue_1983",
+			"tag"         : ["game", "rogue", "1983", "roguelike"]
+		},
+		{
+			"name"        : "vasco",
+			"description" : "vasco personal space.",
+			"link"        : "https://vasco.work/welcome",
+			"tag"         : ["site", "vasco", "terminal"]
+		},
+		{
+			"name"        : "rot.js",
+			"description" : "The Roguelike Toolkit for JavaScript.",
+			"link"        : "https://ondras.github.io/rot.js/hp",
+			"tag"         : ["site", "rot.js", "rot", "js", "roguelike"]
+		},
+		{
+			"name"        : "2048 (2018)",
+			"description" : "A cool little summer project from 17 year old student, Mihir. 2048 in your terminal.",
+			"link"        : "https://github.com/plibither8/2048.cpp",
+			"tag"         : ["game", "2048", "terminal", "github", "2018"]
+		},
+		{
+			"name"        : "ghosts in the shortwave (2018)",
+			"description" : "This is an exploratory ASCII platformer about a forest creature in the distant future discovering ancient broadcasting equipment.",
+			"link"        : "https://hthr.itch.io/ghosts-in-the-shortwave",
+			"tag"         : ["game", "ghosts ", "shortwave", "ascii", "platformer", "2018"]
+		},
+		{
+			"name"        : "",
+			"description" : "",
+			"link"        : "",
+			"tag"         : ["", "", "", "", ""]
+		}
+	]
+}
