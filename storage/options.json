@@ -2,7 +2,7 @@
 	"name"        : "TUI.UTOYVO.XYZ",
 	"description" : "Welcome to the site dedicated to the collection and systematization of resources made in Text-based user interface style.<br>Maybe you know about projects that are not yet on the site? Please email us and we will add it! :-)",
 	"version"     : "1.0.0",
-	"url"         : "https://utoyvo.github.io/tui-terminal/",
+	"url"         : "https://utoyvo.github.io/tui-terminal",
 	"email"       : "utoyvo@protonmail.com",
 	"copyright"   : "2019",
 	"charset"     : "utf-8",
