@@ -1,7 +1,7 @@
 # TUI
 Welcome to the site dedicated to the collection and systematization of resources made in Text-based user interface style.
 
-![tui terminal](https://raw.githubusercontent.com/utoyvo/tui-terminal/master/assets/img/screenshots/screenshot-1200x800.png)
+![tui terminal](screenshot-1280x640.jpg)
 
 ## Install
 Upload files in root directory and change options.
