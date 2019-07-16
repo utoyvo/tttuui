@@ -1,7 +1,7 @@
 # TUI
 Welcome to the site dedicated to the collection and systematization of resources made in Text-based user interface style.
 
-![tui terminal](screenshot-1280x640.jpg)
+![tui terminal](screenshot.jpg)
 
 ## Install
 Upload files in root directory and change options.
